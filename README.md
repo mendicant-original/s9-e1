@@ -1,6 +1,8 @@
 Integration Exercise: Java Library Wrapper
 ------------------------------------------
 
+_written by: Shane Emmons_
+
 The world is full of Java. Chances are pretty good if you walk into an
 corporate IT department you'll find Java. So, what do we as Ruby developers do
 when forced to work with Java? We turn to JRuby and it's Java integration. Your
@@ -29,3 +31,9 @@ infostore = session.infostore
 
 If you'd like to see another example see a library Shane's created
 [here](https://github.com/semmons99/bosdk).
+
+Summary
+-------
+- Create a Gem using JRuby that wraps an existing Java Library.
+- Should wrap a Java library that isn't currently available as a Gem.
+- Abstract the Java "cruft" away from the user.
