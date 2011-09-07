@@ -1,6 +1,6 @@
 # Integration Exercise: Java Library Wrapper
 
-_written by Shane Emmons for the Mendicant University core skills session #9_
+_written by Shane Emmons for Mendicant University core skills session #9_
 
 The world is full of Java. Chances are pretty good if you walk into a
 corporate IT department you'll find Java. So, what do we as Ruby developers do
