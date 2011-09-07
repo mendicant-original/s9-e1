@@ -32,7 +32,7 @@ infostore = session.infostore
 ```
 For a more complete example, see Shane's [bosdk wrapper](https://github.com/semmons99/bosdk).
 
-## Summary
+## Exercise Summary
 
 - You should create a gem using JRuby that wraps an existing Java library.
 - Your gem should work with a Java library that doesn't already have
