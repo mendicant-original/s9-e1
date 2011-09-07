@@ -8,10 +8,12 @@ corporate IT department you'll find Java. So, what do we as Ruby developers do
 when forced to work with Java? We turn to JRuby and it's Java integration. Your
 assignment, should you choose to accept it, is to use JRuby to wrap an existing
 Java library into a new Ruby gem. You can choose any Java library you like.
-However, if there already existing a functional and active Gem, you should look
+However, if there already existing a functional and active gem, you should look
 at wrapping a different library unless you plan on taking a different route.
 Either way, please have Greg or Shane approve your chosen library before
-starting work in earnest. Oh, and one more thing. We don't just want this to be
+starting work in earnest. 
+
+Oh, and one more thing. We don't just want this to be
 a straight API copy of the existing library. Abstract things away from the
 programmer so that working with your Gem is easier than working directly with
 the library via JRuby. For example, instead of making someone type this to get
@@ -34,6 +36,9 @@ If you'd like to see another example see a library Shane's created
 
 Summary
 -------
-- Create a Gem using JRuby that wraps an existing Java Library.
-- Should wrap a Java library that isn't currently available as a Gem.
-- Abstract the Java "cruft" away from the user.
+- Create a gem using JRuby that wraps an existing Java library.
+- Your gem should either wrap a Java library that isn't currently 
+  available as a gem, or at least provide a different set of 
+  functionality to the gems that are already out there.
+- Abstract the Java "cruft" away from the user, make your library look
+  and feel like Ruby.
