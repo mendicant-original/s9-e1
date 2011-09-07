@@ -40,3 +40,10 @@ Summary
 - Your gem should work with a Java library that doesn't already have
   a good wrapper.
 - You should make the API for your library look and feel like Ruby, not Java.
+
+Submission Guidelines
+---------------------
+
+You should fork this repository and push code early and often to your fork. The
+course guidelines PDF explains the submission process in detail, but please
+contact an instructor if you have any questions.
