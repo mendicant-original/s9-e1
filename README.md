@@ -14,16 +14,16 @@ starting work in earnest.
 
 Oh, and one more thing. We don't just want this to be
 a straight API copy of the existing library. Abstract things away from the
-programmer so that working with your Gem is easier than working directly with
-the library via JRuby. For example, instead of making someone type this to get
-an "infostore" object:
-
+programmer so that working with your gem is easier than working directly with
+the library via JRuby. The code below is an example of what *not* to do.
 ```ruby
 session   = CrystalEnterprise.getSessionManager.logon(user, password, cms, authtype)
 infostore = session.getService('', 'InfoStore')
 ```
 
-Let them do this:
+With a little bit of effort, this interaction could be made to feel a lot more
+natural to a native Rubyist. The code shown below is much closer to what you
+should be aiming for.
 
 ```ruby
 session   = Enterprise.connect(user: "shane", password: "password")
