@@ -3,7 +3,7 @@ Integration Exercise: Java Library Wrapper
 
 _written by: Shane Emmons_
 
-The world is full of Java. Chances are pretty good if you walk into an
+The world is full of Java. Chances are pretty good if you walk into a
 corporate IT department you'll find Java. So, what do we as Ruby developers do
 when forced to work with Java? We turn to JRuby and it's Java integration. Your
 assignment, should you choose to accept it, is to use JRuby to wrap an existing
