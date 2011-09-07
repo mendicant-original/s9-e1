@@ -45,6 +45,6 @@ Submission Guidelines
 ---------------------
 
 If you plan to work on this exercise, you should fork this repository 
-and push code early and often to your fork during the course. The course 
+and push code early and often during the course. The course 
 guidelines PDF explains the submission process in detail, but please 
 contact an instructor if you have any questions.
