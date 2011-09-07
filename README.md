@@ -1,5 +1,4 @@
-Integration Exercise: Java Library Wrapper
-------------------------------------------
+# Integration Exercise: Java Library Wrapper
 
 _written by: Shane Emmons_
 
@@ -34,15 +33,14 @@ infostore = session.infostore
 If you'd like to see another example see a library Shane's created
 [here](https://github.com/semmons99/bosdk).
 
-Summary
--------
+## Summary
+
 - You will create a gem using JRuby that wraps an existing Java library.
 - Your gem should work with a Java library that doesn't already have
   a good wrapper.
 - You should make the API for your library look and feel like Ruby, not Java.
 
-Submission Guidelines
----------------------
+## Submission Guidelines
 
 If you plan to work on this exercise, you should fork this repository 
 and push code early and often during the course. The course 
