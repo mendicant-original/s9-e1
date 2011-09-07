@@ -37,8 +37,7 @@ If you'd like to see another example see a library Shane's created
 Summary
 -------
 - Create a gem using JRuby that wraps an existing Java library.
-- Your gem should either wrap a Java library that isn't currently 
-  available as a gem, or at least provide a different set of 
-  functionality to the gems that are already out there.
+- Your gem should work with a Java library that doesn't already have
+  a good wrapper.
 - Abstract the Java "cruft" away from the user, make your library look
   and feel like Ruby.
