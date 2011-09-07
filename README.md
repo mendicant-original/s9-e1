@@ -16,6 +16,7 @@ Oh, and one more thing. We don't just want this to be
 a straight API copy of the existing library. Abstract things away from the
 programmer so that working with your gem is easier than working directly with
 the library via JRuby. The code below is an example of what *not* to do.
+
 ```ruby
 session   = CrystalEnterprise.getSessionManager.logon(user, password, cms, authtype)
 infostore = session.getService('', 'InfoStore')
@@ -29,13 +30,11 @@ should be aiming for.
 session   = Enterprise.connect(user: "shane", password: "password")
 infostore = session.infostore
 ```
-
-If you'd like to see another example see a library Shane's created
-[here](https://github.com/semmons99/bosdk).
+For a more complete example, see Shane's [bosdk wrapper](https://github.com/semmons99/bosdk).
 
 ## Summary
 
-- You will create a gem using JRuby that wraps an existing Java library.
+- You should create a gem using JRuby that wraps an existing Java library.
 - Your gem should work with a Java library that doesn't already have
   a good wrapper.
 - You should make the API for your library look and feel like Ruby, not Java.
